@@ -1,0 +1,31 @@
+.Footer{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    justify-content: space-between;
+    padding: 12px;
+    font-size: var(--form-font);
+    font-family: var(--font-family);
+    color: var(--footergrey);
+    word-spacing: 15px;
+}
+
+.copyrightLine{
+    word-spacing: 1px;
+    padding-left: 5px;
+}
+
+.contactLine{
+    word-spacing: 1px;
+    padding: 7px;
+}
+
+.instaliteLine{
+    word-spacing: 1px;
+    padding: 7px;
+}
+
+.metaLine{
+    word-spacing: 1px;
+    padding: 7px;
+}

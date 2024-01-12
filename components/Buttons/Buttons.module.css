@@ -1,0 +1,13 @@
+.Buttons{
+    box-sizing: border-box;
+    width: 255px;
+    padding: 8px;
+    border-radius: 8px;
+    text-align: center;
+    display: inline-block;
+    border: none;
+    background-color: var(--blue);
+    color: var(--white);
+    font-family: var(--font-family);
+    font-weight: bold;
+}

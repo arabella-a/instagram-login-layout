@@ -1,0 +1,55 @@
+.formOuterContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formContainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 5px;
+}
+
+.form{
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fieldSet{
+    border: none;
+    padding: 10px;
+    max-width: 400px;
+}
+
+.userNameInput{
+    width: 75%;
+    padding: 10px;
+    margin: 2px;
+    font-size: var(--form-font);
+    border: 1px solid var(--bordergrey);
+    background-color: var(--lightgrey);
+}
+
+.userNameInput:focus{
+    outline: none;
+}
+
+.passwordInput{
+    width: 75%;
+    padding: 10px;
+    margin: 4px;
+    font-size: var(--form-font);
+    border: 1px solid var(--bordergrey);
+    background-color: var(--lightgrey);
+}
+
+.fieldset > input{
+    width: 100%;
+    padding: 6px 0;
+    border: 1px solid var(--bordergrey);
+    box-sizing: border-box;
+    font-family: var(--font-family);
+}
